@@ -18,7 +18,7 @@ plt.style.use('_mpl-gallery')
 df = pd.read_csv(r'final.csv')
 
 # Global vars
-N = 100 # Number of investors
+N = 100000 # Number of investors
 initWealth = 10000 # Initial cash
 
 def main():
