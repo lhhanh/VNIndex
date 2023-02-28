@@ -1,4 +1,8 @@
 class Investor:
+    cash: int
+    stock: int
+    prob: float
+
     def __init__(self, cash, stock, prob):
         self.cash = cash
         self.stock = stock
